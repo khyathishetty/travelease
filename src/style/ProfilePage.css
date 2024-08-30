@@ -1,0 +1,81 @@
+body {
+  background-image: url('C:\Users\Khyathi Shetty\Documents\vec\vec\src\assets\travel.png');
+  top: 100%;
+  left: 100%;
+  backdrop-filter: blur(3px);
+  opacity: 0.8;
+  background-repeat: 'no-repeat';
+  background-size: 'cover';
+  background-position: 100px 0px; /* Adjust background position */
+}
+
+.image-text-container {
+    display: grid;
+    grid-template-columns: 100px auto; /* Define columns: image width and remaining space */
+    align-items: center; /* Align text vertically centered with image */
+  }
+  
+  .profile-image {
+    border-radius: 80%;
+    margin-right: 30px; /* Space between image and details */
+  }
+
+  .main-container {
+    width: 800px; /* Fixed width */
+    height: 600px; /* Fixed height */
+    margin: 0 auto;
+  }
+
+  
+  .profile-container {
+    height: 97vh; /* Set minimum height to cover viewport */
+    width: full; /* Adjust width as desired */
+    justify-content: center;
+    border: 1px solid #f5eded; /* Add a border to create the box */
+    border-radius: 3px; /* Add rounded corners for the box */
+    display: flex; /* Enable flexbox layout */
+    align-items: center; 
+  }
+  .user-info-container {
+    flex: 1; /* Allow user info to expand to fill remaining space */
+  }
+  .log-out-button {
+    background-color: #423939;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .log-out-button i {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .log-out-button:hover {
+    background-color: #444;
+  }
+  
+
+  .divider {
+    border: 1px solid #f1ebeb; /* Adjust line thickness and color */
+    margin: 30px 0; /* Add margin above and below the line */
+  }
+  
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
